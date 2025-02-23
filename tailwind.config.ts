@@ -27,6 +27,12 @@ export default {
 							fontSize: '1rem',
 							lineHeight: '1.5rem',
 						},
+						hr: {
+							marginTop: '1rem',
+							marginBottom: '1rem',
+							borderWidth: '1px',
+							borderColor: '#555555',
+						},
 					},
 				},
 			},
