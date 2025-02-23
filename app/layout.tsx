@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning className={inter.variable}>
-			<head />
+			<head>
+				<link rel="icon" href="/images/favicon.ico" sizes="any" />
+			</head>
 			<body
 				className="antialiased prose mx-auto font-sans bg-[#FAF9F6] prose-h1:text-2xl prose-h3:text-base
 					px-4 py-6 
