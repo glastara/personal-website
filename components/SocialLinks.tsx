@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaLink } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { SiLinktree } from "react-icons/si";
 
