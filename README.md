@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the source code for my personal website ([taranglasson.com](https://www.taranglasson.com/)), built with modern web technologies. It replaces my previous Squarespace-hosted website to save costs and improve customisability. It is deployed using **Vercel** with **Cloudflare** for hosting and domain management.
+This is the source code for my personal website ([taranglasson.com](https://www.taranglasson.com/)), built with modern web technologies. It replaces my previous Squarespace-hosted website to save costs and improve customisability. It is deployed and hosted for free using **Vercel** with **Cloudflare** for domain & DNS management.
 
 ## 🚀 Tech Stack
 
@@ -65,10 +65,10 @@ git pull origin main
    git push origin main
    ```
 
-## 🌍 Deployment
+## 🌍 Hosting & Deployment
 
-- The website is automatically deployed to **Vercel** when changes are pushed to the `main` branch.
-- The domain is managed via **Cloudflare**.
+- The website is hosted and deployed via **Vercel**. **Vercel** handles both the deployment of your site and the automatic updates when changes are pushed to GitHub.
+- The domain is managed via **Cloudflare**. **Cloudflare** handles the DNS configuration, including routing traffic to Vercel.
 - Additional domains (`taranglasson.co`, `.net`, `.xyz`, `.me`) are redirected to `taranglasson.com`.
 
 ## 🔥 Features & Customizations
