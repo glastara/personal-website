@@ -22,7 +22,7 @@ export default function RootLayout({
 					px-4 py-6 
 					sm:px-8 sm:py-8
 					md:px-16 md:py-10
-					lg:px-52 lg:py-10
+					lg:px-56 lg:py-10
 					max-w-5xl"
 				suppressHydrationWarning
 			>
