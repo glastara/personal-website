@@ -64,7 +64,7 @@ export default function ExperimentsPage() {
   return (
     <div className="space-y-6">
       <p className="text-sm text-gray-600 md:text-base">
-        This page is just a playground for my restless thoughts. Prototypes will not have full functionality, things may break.
+        This page is just a playground for my restless thoughts. Prototypes will not have full functionality. Things may break.
       </p>
 
       <div className="not-prose">
