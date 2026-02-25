@@ -34,7 +34,7 @@ export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 						<button
 							type="button"
 							onClick={() => handleCardClick(experiment.href)}
-							className="flex-1 px-4 py-4 text-left sm:px-5 sm:py-5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF9F6]"
+							className="flex-1 px-4 py-4 text-left sm:px-5 sm:py-5 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF9F6]"
 						>
 							<div className="flex items-center justify-between gap-2">
 								<h2 className="text-sm font-semibold text-gray-900 sm:text-base underline-offset-2 transition-colors group-hover:text-gray-700 group-hover:underline">
@@ -55,7 +55,7 @@ export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 										current === experiment.href ? null : experiment.href,
 									);
 								}}
-								className="flex w-full items-center justify-center px-4 py-2 text-xs font-medium text-gray-500 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF9F6]"
+								className="flex w-full items-center justify-center px-4 py-2 text-xs font-medium text-gray-500 hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF9F6]"
 							>
 								<span>Why I built this</span>
 							</button>
