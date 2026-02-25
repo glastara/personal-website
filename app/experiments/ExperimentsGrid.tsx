@@ -57,7 +57,7 @@ export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 								}}
 								className="flex w-full items-center justify-center px-4 py-2 text-xs font-medium text-gray-500 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF9F6]"
 							>
-								<span>More details</span>
+								<span>Why I built this</span>
 							</button>
 
 							{openHref === experiment.href && (
