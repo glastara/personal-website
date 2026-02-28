@@ -28,6 +28,13 @@ const experiments: Experiment[] = [
       "Mini-app where subscribers/community members record short voice notes based on a weekly prompt set by a creator's team. Others can listen and react. Plus weekly digest with next prompt & 3 highlighted voicenote entries & best responses from last week. Not as full-on & time-consuming to organise as a podcast, but more human than a chatroom or email.",
   },
   {
+    title: "Creator Run Hub",
+    href: "https://creator-run-hub.lovable.app",
+    problem: "Everyone seems to be starting or joining a run club, but there isn’t an easy way for content creators to set up and organise them.",
+    solution:
+      "White-label run club platform specifically designed to help content creators organise run clubs with their community members. Includes customisable landing page with creator branding (e.g. The Morning Run Club), ability to find & host runs and set up chapters across multiple cities.",
+  },
+  {
     title: "GoodGiving",
     href: "https://good-giving-connect.lovable.app",
     problem:
@@ -48,7 +55,7 @@ const experiments: Experiment[] = [
     href: "https://community-passport1.lovable.app",
     problem: "Hard to meet like-minded people IRL in digital era (at least outside a dating context).",
     solution:
-      "Linktree for IRL connections --> allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & connect IRL with others on the Community Passport Directory. V2 would allow for proper filtering by location, interests, etc.",
+      "Linktree for IRL connections. Allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & connect IRL with others on the Community Passport Directory. V2 would allow for proper filtering by location, interests, etc.",
   },
   {
     title: "StumbleUpon…Someone???",
