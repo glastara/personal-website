@@ -28,6 +28,13 @@ const experiments: Experiment[] = [
       "Mini-app where subscribers/community members record short voice notes based on a weekly prompt set by a creator's team. Others can listen and react. Plus weekly digest with next prompt & 3 highlighted voicenote entries & best responses from last week. Not as full-on & time-consuming to organise as a podcast, but more human than a chatroom or email.",
   },
   {
+    title: "Community Pulse",
+    href: "https://well-room--taranglasson.replit.app",
+    problem: "Hard for creators to assess community wellbeing, and for community members to find the best events to boost their wellbeing if they’re feeling down.",
+    solution:
+      "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
+  },
+  {
     title: "Creator Run Hub",
     href: "https://creator-run-hub.lovable.app",
     problem: "Everyone seems to be starting or joining a run club, but there isn’t an easy way for content creators to set up and organise them.",
