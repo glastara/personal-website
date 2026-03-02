@@ -35,6 +35,13 @@ const experiments: Experiment[] = [
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
   },
   {
+    title: "Retreat",
+    href: "https://retreat-hosting-and-booking.lovable.app",
+    problem: "Retreats are a high-value IRL community activity, but it’s difficult for creators to host & manage them (usually organised via emails and DMs).",
+    solution:
+      "Creator retreat hosting & booking platform. Creators can list retreats (e.g. business-focused workshops, content hackathons, wellness retreats, etc.) and community members can apply to attend.",
+  },
+  {
     title: "Creator Run Hub",
     href: "https://creator-run-hub.lovable.app",
     problem: "Everyone seems to be starting or joining a run club, but there isn’t an easy way for content creators to set up and organise them.",
