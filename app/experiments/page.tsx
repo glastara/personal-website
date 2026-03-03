@@ -35,6 +35,13 @@ const experiments: Experiment[] = [
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
   },
   {
+    title: "Gather",
+    href: "https://gather-local-creators.lovable.app",
+    problem: "No easy way for creators’ communities to self-organise meetups without the creator being the bottleneck.",
+    solution:
+      "Local meetup platform that lets community members host & attend events in their city under a creator’s brand. Creators set the culture & guidelines; communities do the organising. A scalable way for creators to grow their communities IRL.",
+  },
+  {
     title: "Retreat",
     href: "https://retreat-hosting-and-booking.lovable.app",
     problem: "Retreats are a high-value IRL community activity, but it’s difficult for creators to host & manage them (usually organised via emails and DMs).",
