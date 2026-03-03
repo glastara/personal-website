@@ -1,6 +1,5 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { SiLinktree } from "react-icons/si";
 
 export default function SocialLinks() {
 	return (
@@ -12,14 +11,6 @@ export default function SocialLinks() {
 				className="hover:text-gray-600 transition-colors"
 			>
 				<FaLinkedin />
-			</a>
-			<a
-				href="https://linktr.ee/taranglasson"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="hover:text-gray-600 transition-colors"
-			>
-				<SiLinktree />
 			</a>
 			<a
 				href="mailto:taranglasson@gmail.com"
@@ -34,6 +25,14 @@ export default function SocialLinks() {
 				className="hover:text-gray-600 transition-colors"
 			>
 				<FaGithub />
+			</a>
+			<a
+				href="https://www.youtube.com/@taran_glasson"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="hover:text-gray-600 transition-colors"
+			>
+				<FaYoutube />
 			</a>
 		</div>
 	);
