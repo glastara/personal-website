@@ -1,4 +1,5 @@
 import ExperimentsGrid from "./ExperimentsGrid";
+import type { ReactNode } from "react";
 
 export const metadata = {
   title: "Experiments",
@@ -8,8 +9,8 @@ export const metadata = {
 type Experiment = {
   title: string;
   href: string;
-  problem: string;
-  solution: string;
+  problem: ReactNode;
+  solution: ReactNode;
 };
 
 const experiments: Experiment[] = [
@@ -23,9 +24,16 @@ const experiments: Experiment[] = [
   {
     title: "Campfire",
     href: "https://community-campfire.lovable.app",
-    problem: "Lack of genuine relationships between online communities.",
+    problem: "Lack of genuine relationships between online community members.",
     solution:
-      "Mini-app where subscribers/community members record short voice notes based on a weekly prompt set by a creator's team. Others can listen and react. Plus weekly digest with next prompt & 3 highlighted voicenote entries & best responses from last week. Not as full-on & time-consuming to organise as a podcast, but more human than a chatroom or email.",
+      "Mini-app where subscribers (i.e. community members) record short voice notes based on a weekly prompt set by a creator's team. Others can listen and react. Plus weekly digest with next prompt & 3 highlighted voicenote entries & best responses from last week. Not as full-on & time-consuming to organise as a podcast, but more human than a chatroom or email.",
+  },
+  {
+    title: "Community Onboarding Tool",
+    href: "https://community-onboarding-tool.lovable.app",
+    problem: "Most communities onboard members with a welcome email, possibly a link to a dead Discord server, and not much else. This leaves community members at risk of feeling lonely and isolated within the community, reducing their likelihood of future engagement.",
+    solution:
+      "New community members are taken to an app that provides them with a structured onboarding journey. Takes 5 mins, identifies what helps them find a sense of belonging, and immediately directs them to personalised recommendations for community activities based on their answers.",
   },
   {
     title: "Community Pulse",
@@ -35,7 +43,53 @@ const experiments: Experiment[] = [
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
   },
   {
-    title: "Gather",
+    title: "Anchor - enhancing community connections",
+    href: "https://anchor-community-connect-app.lovable.app",
+    problem: (
+      <>
+        <a
+          href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10772224/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          Loneliness research
+        </a>{" "}
+        shows that social isolation and loneliness aren’t the same thing. Some don’t feel lonely when alone, others
+        feel loneliness when surrounded by people. However, there’s no mechanism in most creator communities to
+        identify everyone’s individual social needs, gauge who’s struggling, and help them find genuine human
+        connection.
+      </>
+    ),
+    solution: (
+      <>
+        Applying the{" "}
+        <a
+          href="https://www.england.nhs.uk/personalisedcare/social-prescribing/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          NHS social prescribing model
+        </a>
+        , community members get the chance to act as ‘Anchors’. Assuming the role of{" "}
+        <a
+          href="https://www.england.nhs.uk/personalisedcare/workforce-and-training/social-prescribing-link-workers/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          link workers
+        </a>{" "}
+        in the NHS model, they’re trained via a short in-app guide to help other community members feel more connected
+        and suggest community activities to participate in. The person seeking connection engages in a human
+        conversation rather than receiving a suggestion from an algorithm. The ‘Anchor’ gets a sense of purpose from
+        helping others.
+      </>
+    ),  
+  },
+  {
+    title: "Gather - self-organised community meetups",
     href: "https://gather-local-creators.lovable.app",
     problem: "No easy way for creators’ communities to self-organise meetups without the creator being the bottleneck.",
     solution:

@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 type Experiment = {
 	title: string;
 	href: string;
-	problem: string;
-	solution: string;
+	problem: ReactNode;
+	solution: ReactNode;
 };
 
 type ExperimentsGridProps = {
