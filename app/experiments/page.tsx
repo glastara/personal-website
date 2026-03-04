@@ -15,35 +15,15 @@ type Experiment = {
 
 const experiments: Experiment[] = [
   {
-    title: "Community Events Performance Dashboard",
-    href: "https://irl-event-dashboard.lovable.app",
-    problem: "Brands find it difficult to capture the ROI of IRL community events.",
-    solution:
-      "Events dashboard (or extension to existing analytics platform) that measures & fully captures the ROI of in-person community events. NOTE: far more metrics can/should be added, these are just a few that came to mind.",
-  },
-  {
-    title: "Campfire",
-    href: "https://community-campfire.lovable.app",
-    problem: "Lack of genuine relationships between online community members.",
-    solution:
-      "Mini-app where subscribers (i.e. community members) record short voice notes based on a weekly prompt set by a creator's team. Others can listen and react. Plus weekly digest with next prompt & 3 highlighted voicenote entries & best responses from last week. Not as full-on & time-consuming to organise as a podcast, but more human than a chatroom or email.",
-  },
-  {
     title: "Community Onboarding Tool",
     href: "https://community-onboarding-tool.lovable.app",
-    problem: "Most communities onboard members with a welcome email, possibly a link to a dead Discord server, and not much else. This leaves community members at risk of feeling lonely and isolated within the community, reducing their likelihood of future engagement.",
+    problem:
+      "Most communities onboard members with a welcome email, possibly a link to a dead Discord server, and not much else. This leaves community members at risk of feeling lonely and isolated within the community, reducing their likelihood of future engagement.",
     solution:
       "New community members are taken to an app that provides them with a structured onboarding journey. Takes 5 mins, identifies what helps them find a sense of belonging, and immediately directs them to personalised recommendations for community activities based on their answers.",
   },
   {
-    title: "Community Pulse",
-    href: "https://well-room--taranglasson.replit.app",
-    problem: "Hard for creators to assess community wellbeing, and for community members to find the best events to boost their wellbeing if they’re feeling down.",
-    solution:
-      "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
-  },
-  {
-    title: "Anchor - enhancing community connections",
+    title: "Anchor - applying NHS social prescribing to build communities",
     href: "https://anchor-community-connect-app.lovable.app",
     problem: (
       <>
@@ -89,25 +69,36 @@ const experiments: Experiment[] = [
     ),  
   },
   {
+    title: "Community Pulse",
+    href: "https://well-room--taranglasson.replit.app",
+    problem:
+      "Hard for creators to assess community wellbeing, and for community members to find the best events to boost their wellbeing if they’re feeling down.",
+    solution:
+      "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
+  },
+  {
     title: "Gather - self-organised community meetups",
     href: "https://gather-local-creators.lovable.app",
-    problem: "No easy way for creators’ communities to self-organise meetups without the creator being the bottleneck.",
+    problem:
+      "No easy way for creators’ communities to self-organise meetups without the creator being the bottleneck.",
     solution:
       "Local meetup platform that lets community members host & attend events in their city under a creator’s brand. Creators set the culture & guidelines; communities do the organising. A scalable way for creators to grow their communities IRL.",
   },
   {
-    title: "Retreat",
-    href: "https://retreat-hosting-and-booking.lovable.app",
-    problem: "Retreats are a high-value IRL community activity, but it’s difficult for creators to host & manage them (usually organised via emails and DMs).",
-    solution:
-      "Creator retreat hosting & booking platform. Creators can list retreats (e.g. business-focused workshops, content hackathons, wellness retreats, etc.) and community members can apply to attend.",
-  },
-  {
     title: "Creator Run Hub",
     href: "https://creator-run-hub.lovable.app",
-    problem: "Everyone seems to be starting or joining a run club, but there isn’t an easy way for content creators to set up and organise them.",
+    problem:
+      "Everyone seems to be starting or joining a run club, but there isn’t an easy way for content creators to set up and organise them.",
     solution:
       "White-label run club platform specifically designed to help content creators organise run clubs with their community members. Includes customisable landing page with creator branding (e.g. The Morning Run Club), ability to find & host runs and set up chapters across multiple cities.",
+  },
+  {
+    title: "Retreat",
+    href: "https://retreat-hosting-and-booking.lovable.app",
+    problem:
+      "Retreats are a high-value IRL community activity, but it’s difficult for creators to host & manage them (usually organised via emails and DMs).",
+    solution:
+      "Creator retreat hosting & booking platform. Creators can list retreats (e.g. business-focused workshops, content hackathons, wellness retreats, etc.) and community members can apply to attend.",
   },
   {
     title: "GoodGiving",
@@ -118,17 +109,34 @@ const experiments: Experiment[] = [
       "Attendees choose charity to donate % of their ticket price to, see which charities others donate to, and connect with each other. Charitable giving as a way to build connections, aligning people being a common, and beneficial, cause.",
   },
   {
+    title: "Community Events Performance Dashboard",
+    href: "https://irl-event-dashboard.lovable.app",
+    problem:
+      "Brands find it difficult to capture the ROI of IRL community events.",
+    solution:
+      "Events dashboard (or extension to existing analytics platform) that measures & fully captures the ROI of in-person community events. NOTE: far more metrics can/should be added, these are just a few that came to mind.",
+  },
+  {
     title: "IRL Community Event Planner",
     href: "https://irl-community-eventplanner.lovable.app/",
     problem:
       "Content creators are often unsure how to facilitate IRL connections with followers & build engagement.",
     solution:
-      "Recommends IRL events for content creators to plan based on location, budget + other needs, then generates ‘Community Kit’ with suggested event agenda, sample invite message, follow-up actions post-event & interactive activity.",
+      "Recommends IRL events for content creators to plan based on location, budget and other needs, then generates ‘Community Kit’ with suggested event agenda, sample invite message, follow-up actions post-event & interactive activity.",
+  },
+  {
+    title: "Campfire",
+    href: "https://community-campfire.lovable.app",
+    problem:
+      "Lack of genuine relationships between online community members.",
+    solution:
+      "Mini-app where subscribers (i.e. community members) record short voice notes based on a weekly prompt set by a creator's team. Others can listen and react. Plus weekly digest with next prompt & 3 highlighted voicenote entries & best responses from last week. Not as full-on & time-consuming to organise as a podcast, but more human than a chatroom or email.",
   },
   {
     title: "Community Passport",
     href: "https://community-passport1.lovable.app",
-    problem: "Hard to meet like-minded people IRL in digital era (at least outside a dating context).",
+    problem:
+      "Hard to meet like-minded people IRL in digital era (at least outside of a dating context).",
     solution:
       "Linktree for IRL connections. Allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & connect IRL with others on the Community Passport Directory. V2 would allow for proper filtering by location, interests, etc.",
   },
