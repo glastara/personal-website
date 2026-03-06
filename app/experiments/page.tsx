@@ -69,6 +69,36 @@ const experiments: Experiment[] = [
     ),  
   },
   {
+    title: "Thread - community accountability groups",
+    href: "https://thread-together-now.lovable.app",
+    problem: (
+      <>
+        Research shows that creating accountability makes us far more likely to hit our goals (see{" "}
+        <a
+          href="https://www.researchmasterminds.com/blog/create-accountability-to-achieve-goals"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          here
+        </a>
+        ), and working towards a common goal builds tighter-knit communities and makes us feel better about ourselves
+        (see{" "}
+        <a
+          href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9099922/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          here
+        </a>
+        ). However, most creator communities don’t facilitate these kind of connections.
+      </>
+    ),
+    solution:
+      "Thread allows community members to start and join small accountability groups built around a shared interest with clear challenges (e.g. a writing challenge, reading goal, business accountability group, etc.). Group members are then prompted to respond to weekly AI-generated ‘threads’ optimised to share tips and progress with other group members.",
+  },
+  {
     title: "Community Pulse",
     href: "https://well-room--taranglasson.replit.app",
     problem:
