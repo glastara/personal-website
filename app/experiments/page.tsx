@@ -107,6 +107,28 @@ const experiments: Experiment[] = [
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
   },
   {
+    title: "Antidote - event check-in detox",
+    href: "https://antidote-app.lovable.app",
+    problem: (
+      <>
+        Our attention spans are shrinking.{" "}
+        <a
+          href="https://searchengineland.com/meta-introduces-click-and-engage-through-attribution-updates-470629"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          Research
+        </a>{" "}
+        shows that 46% of purchase conversions on Reels happen within 2 seconds, and Meta recently shortened what it
+        counts as an ‘engaged view’ on video from 10 to 5 secs to reflect faster conversion behaviour. Community event
+        attendees are likely to bring that shortened attention span with them, and may struggle to be truly present.
+      </>
+    ),
+    solution:
+      "A check-in experience that attendees open via QR code when arriving to creator IRL events. They’re prompted to complete a 60-second detox from the online world - a breathing prompt, positive reflection question, and one positive intention for the event - and are then given a personalised conversation starter to use with the first person they meet. The organiser & their team would get live stats of everyone’s check-in responses, and can tailor their talk/event accordingly.",
+  },
+  {
     title: "Gather - self-organised community meetups",
     href: "https://gather-local-creators.lovable.app",
     problem:
@@ -137,6 +159,14 @@ const experiments: Experiment[] = [
       "Community members don’t feel commonalities & connections with each other, other than their interest in the creator they're going to see. This limits how fast connections can be built & scaled - they're only built through one node (the creator) rather than through multiple (each individual community member).",
     solution:
       "Attendees choose charity to donate % of their ticket price to, see which charities others donate to, and connect with each other. Charitable giving as a way to build connections, aligning people being a common, and beneficial, cause.",
+  },
+  {
+    title: "Post-Event Content Pipeline Generator",
+    href: "https://vibe-to-viral.lovable.app",
+    problem:
+      "Not only are IRL community events difficult to organise, but many creators lack a systematic process for turning IRL moments into social media content that’ll maximise community growth and engagement.",
+    solution:
+      "A post-event content pipeline tool where a creator’s team uploads key moments, videos, photos, etc., and the tool generates a content plan across multiple platforms. Each suggested piece of content is optimised for the creator’s community goals and what each platform’s algorithm rewards.",
   },
   {
     title: "Community Events Performance Dashboard",
