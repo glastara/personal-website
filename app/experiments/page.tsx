@@ -198,7 +198,7 @@ const experiments: Experiment[] = [
     problem:
       "Hard to meet like-minded people IRL in digital era (at least outside of a dating context).",
     solution:
-      "Linktree for IRL connections. Allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & connect IRL with others on the Community Passport Directory. V2 would allow for proper filtering by location, interests, etc.",
+      "Linktree for IRL connections. Allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & meet up IRL with others on the Community Passport Directory. Members get rewards for a certain number of IRL meetups (e.g. free products & handwritten letters from creators).",
   },
   {
     title: "StumbleUpon…Someone???",
