@@ -100,7 +100,7 @@ const experiments: Experiment[] = [
   },
   {
     title: "Community Pulse",
-    href: "https://well-room--taranglasson.replit.app",
+    href: "https://community-pulse-irl-events.lovable.app",
     problem:
       "Hard for creators to assess community wellbeing, and for community members to find the best events to boost their wellbeing if they’re feeling down.",
     solution:
