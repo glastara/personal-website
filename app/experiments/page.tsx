@@ -201,12 +201,12 @@ const experiments: Experiment[] = [
       "Linktree for IRL connections. Allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & meet up IRL with others on the Community Passport Directory. Members get rewards for a certain number of IRL meetups (e.g. free products & handwritten letters from creators).",
   },
   {
-    title: "StumbleUpon…Someone???",
+    title: "StumbleUponSomeone",
     href: "https://stumble-find-a-friend.lovable.app",
     problem:
       "Hard to make friends & deep connections day-to-day → IRL networks tend to be locked in & limited to work  + existing connections once we reach adulthood.",
     solution:
-      "There was a site in the early 00s called StumbleUpon where you could go, click a button, and it'd randomly bring you an interesting page on the internet. Thinking something like this, but to help form IRL connections with actual people. E.g. a webpage that recommends online community members to meet up with based on interests, gives their socials & personal website/blog pages (need to tweak so that connections are also close enough to facilitate IRL meetups). Name up for debate.",
+      "There was a site in the early 00s called StumbleUpon where you could go, click a button, and it'd randomly bring you an interesting page on the internet. Thinking something like this, but to help form IRL connections with actual people. E.g. a webpage that recommends online community members to meet up with based on interests, gives their socials & personal website/blog pages (need to tweak so that connections are also close enough to facilitate IRL meetups). Name questionable, open to suggestions.",
   },
 ];
 
