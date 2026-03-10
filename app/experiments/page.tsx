@@ -107,6 +107,14 @@ const experiments: Experiment[] = [
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
   },
   {
+    title: "Resonance - listener-to-community action",
+    href: "https://resonate-action-app.lovable.app",
+    problem:
+      "Listeners often finish a podcast episode feeling motivated, but have no immediate way to convert that into community engagement.",
+    solution:
+      "Episode companion tool (e.g. accessed via link in description after verbal CTA at end of episode from creator) where listeners state what part of the episode resonated most with them, before being recommended a simple community action based on their feelings & location.",
+  },
+  {
     title: "Antidote - event check-in detox",
     href: "https://antidote-app.lovable.app",
     problem: (
