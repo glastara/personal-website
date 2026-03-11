@@ -11,12 +11,14 @@ type Experiment = {
   href: string;
   problem: ReactNode;
   solution: ReactNode;
+  tags: string[];
 };
 
 const experiments: Experiment[] = [
   {
     title: "Community Onboarding Tool",
     href: "https://community-onboarding-tool.lovable.app",
+    tags: ["Community Health", "Creator Tools"],
     problem:
       "Most communities onboard members with a welcome email, possibly a link to a dead Discord server, and not much else. This leaves community members at risk of feeling lonely and isolated within the community, reducing their likelihood of future engagement.",
     solution:
@@ -25,6 +27,7 @@ const experiments: Experiment[] = [
   {
     title: "Anchor - applying NHS social prescribing to build communities",
     href: "https://anchor-community-connect-app.lovable.app",
+    tags: ["Community Health"],
     problem: (
       <>
         <a
@@ -71,6 +74,7 @@ const experiments: Experiment[] = [
   {
     title: "Thread - community accountability groups",
     href: "https://thread-together-now.lovable.app",
+    tags: ["Community Health"],
     problem: (
       <>
         Research shows that creating accountability makes us far more likely to hit our goals (see{" "}
@@ -101,6 +105,7 @@ const experiments: Experiment[] = [
   {
     title: "Community Pulse",
     href: "https://community-pulse-irl-events.lovable.app",
+    tags: ["Community Health", "Creator Tools"],
     problem:
       "Hard for creators to assess community wellbeing, and for community members to find the best events to boost their wellbeing if they’re feeling down.",
     solution:
@@ -109,6 +114,7 @@ const experiments: Experiment[] = [
   {
     title: "Resonance - listener-to-community action",
     href: "https://resonate-action-app.lovable.app",
+    tags: ["Community Health", "Creator Tools"],
     problem:
       "Listeners often finish a podcast episode feeling motivated, but have no immediate way to convert that into community engagement.",
     solution:
@@ -117,6 +123,7 @@ const experiments: Experiment[] = [
   {
     title: "Antidote - event check-in detox",
     href: "https://antidote-app.lovable.app",
+    tags: ["IRL & Events", "Community Health"],
     problem: (
       <>
         Our attention spans are shrinking.{" "}
@@ -139,6 +146,7 @@ const experiments: Experiment[] = [
   {
     title: "Gather - self-organised community meetups",
     href: "https://gather-local-creators.lovable.app",
+    tags: ["IRL & Events"],
     problem:
       "No easy way for creators’ communities to self-organise meetups without the creator being the bottleneck.",
     solution:
@@ -147,6 +155,7 @@ const experiments: Experiment[] = [
   {
     title: "Creator Run Hub",
     href: "https://creator-run-hub.lovable.app",
+    tags: ["IRL & Events", "Creator Tools"],
     problem:
       "Everyone seems to be starting or joining a run club, but there isn’t an easy way for content creators to set up and organise them.",
     solution:
@@ -155,6 +164,7 @@ const experiments: Experiment[] = [
   {
     title: "Retreat",
     href: "https://retreat-hosting-and-booking.lovable.app",
+    tags: ["IRL & Events", "Creator Tools"],
     problem:
       "Retreats are a high-value IRL community activity, but it’s difficult for creators to host & manage them (usually organised via emails and DMs).",
     solution:
@@ -163,6 +173,7 @@ const experiments: Experiment[] = [
   {
     title: "GoodGiving",
     href: "https://good-giving-connect.lovable.app",
+    tags: ["IRL & Events", "Community Health"],
     problem:
       "Community members don’t feel commonalities & connections with each other, other than their interest in the creator they're going to see. This limits how fast connections can be built & scaled - they're only built through one node (the creator) rather than through multiple (each individual community member).",
     solution:
@@ -171,6 +182,7 @@ const experiments: Experiment[] = [
   {
     title: "Post-Event Content Pipeline Generator",
     href: "https://vibe-to-viral.lovable.app",
+    tags: ["IRL & Events", "Creator Tools"],
     problem:
       "Not only are IRL community events difficult to organise, but many creators lack a systematic process for turning IRL moments into social media content that’ll maximise community growth and engagement.",
     solution:
@@ -179,6 +191,7 @@ const experiments: Experiment[] = [
   {
     title: "Community Events Performance Dashboard",
     href: "https://irl-event-dashboard.lovable.app",
+    tags: ["IRL & Events", "Creator Tools"],
     problem:
       "Brands find it difficult to capture the ROI of IRL community events.",
     solution:
@@ -187,6 +200,7 @@ const experiments: Experiment[] = [
   {
     title: "IRL Community Event Planner",
     href: "https://irl-community-eventplanner.lovable.app/",
+    tags: ["IRL & Events", "Creator Tools"],
     problem:
       "Content creators are often unsure how to facilitate IRL connections with followers & build engagement.",
     solution:
@@ -195,6 +209,7 @@ const experiments: Experiment[] = [
   {
     title: "Campfire",
     href: "https://community-campfire.lovable.app",
+    tags: ["Community Health"],
     problem:
       "Lack of genuine relationships between online community members.",
     solution:
@@ -203,6 +218,7 @@ const experiments: Experiment[] = [
   {
     title: "Community Passport",
     href: "https://community-passport1.lovable.app",
+    tags: ["IRL & Events", "Community Health"],
     problem:
       "Hard to meet like-minded people IRL in digital era (at least outside of a dating context).",
     solution:
@@ -211,6 +227,7 @@ const experiments: Experiment[] = [
   {
     title: "StumbleUponSomeone",
     href: "https://stumble-find-a-friend.lovable.app",
+    tags: ["IRL & Events", "Community Health"],
     problem:
       "Hard to make friends & deep connections day-to-day → IRL networks tend to be locked in & limited to work  + existing connections once we reach adulthood.",
     solution:
@@ -222,7 +239,7 @@ export default function ExperimentsPage() {
   return (
     <div className="space-y-6">
       <p className="text-sm text-gray-600 md:text-base">
-        This page is just a playground for my restless thoughts. Prototypes will not have full functionality. Things may break.
+        This page is just a playground for my restless thoughts. Prototypes do not have full functionality. Things may break.
       </p>
 
       <div className="not-prose">

@@ -7,23 +7,60 @@ type Experiment = {
 	href: string;
 	problem: ReactNode;
 	solution: ReactNode;
+	tags: string[];
 };
 
 type ExperimentsGridProps = {
 	experiments: Experiment[];
 };
 
+const tagColors: Record<string, string> = {
+	"IRL & Events": "bg-amber-100 text-amber-700",
+	"Community Health": "bg-green-100 text-green-700",
+	"Creator Tools": "bg-blue-100 text-blue-700",
+};
+
+const ALL_TAGS = ["IRL & Events", "Community Health", "Creator Tools"];
+
 export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 	const [openHref, setOpenHref] = useState<string | null>(null);
+	const [activeTag, setActiveTag] = useState<string | null>(null);
 
-	const handleCardClick = (href: string) => {
-		if (typeof window === "undefined") return;
-		window.open(href, "_blank", "noopener,noreferrer");
-	};
+	const filtered = activeTag
+		? experiments.filter((e) => e.tags.includes(activeTag))
+		: experiments;
 
 	return (
 		<div className="space-y-4">
-			{experiments.map((experiment) => (
+			<div className="flex flex-wrap gap-2">
+				<button
+					type="button"
+					onClick={() => setActiveTag(null)}
+					className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+						activeTag === null
+							? "bg-gray-900 text-white"
+							: "bg-gray-100 text-gray-600 hover:bg-gray-200"
+					}`}
+				>
+					All
+				</button>
+				{ALL_TAGS.map((tag) => (
+					<button
+						key={tag}
+						type="button"
+						onClick={() => setActiveTag(activeTag === tag ? null : tag)}
+						className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+							activeTag === tag
+								? tagColors[tag]
+								: "bg-gray-100 text-gray-600 hover:bg-gray-200"
+						}`}
+					>
+						{tag}
+					</button>
+				))}
+			</div>
+
+			{filtered.map((experiment) => (
 				<div
 					key={experiment.title}
 					className="group rounded-2xl border border-black/5 bg-white/60 shadow-sm overflow-hidden
@@ -33,7 +70,10 @@ export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 					<div className="flex flex-col">
 						<button
 							type="button"
-							onClick={() => handleCardClick(experiment.href)}
+							onClick={() => {
+								if (typeof window === "undefined") return;
+								window.open(experiment.href, "_blank", "noopener,noreferrer");
+							}}
 							className="flex-1 px-4 py-4 text-left sm:px-5 sm:py-5 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#FAF9F6]"
 						>
 							<div className="flex items-center justify-between gap-2">
@@ -44,6 +84,18 @@ export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 									➝
 								</span>
 							</div>
+							{experiment.tags.length > 0 && (
+								<div className="flex flex-wrap gap-1.5 mt-2">
+									{experiment.tags.map((tag) => (
+										<span
+											key={tag}
+											className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-medium ${tagColors[tag] ?? "bg-gray-100 text-gray-600"}`}
+										>
+											{tag}
+										</span>
+									))}
+								</div>
+							)}
 						</button>
 
 						<div className="border-t border-black/5">
@@ -83,4 +135,3 @@ export default function ExperimentsGrid({ experiments }: ExperimentsGridProps) {
 		</div>
 	);
 }
-
