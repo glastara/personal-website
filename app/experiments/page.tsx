@@ -112,7 +112,7 @@ const experiments: Experiment[] = [
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
   },
   {
-    title: "Resonance - listener-to-community action",
+    title: "Resonance - turn listeners into active communities",
     href: "https://resonate-action-app.lovable.app",
     tags: ["Community Health", "Creator Tools"],
     problem:
