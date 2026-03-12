@@ -16,6 +16,15 @@ type Experiment = {
 
 const experiments: Experiment[] = [
   {
+    title: "Resonance - turn listeners into active communities",
+    href: "https://resonate-action-app.lovable.app",
+    tags: ["Community Health", "Creator Tools"],
+    problem:
+      "Podcast listeners often finish an episode feeling motivated, but have no immediate way to engage with the creator's community.",
+    solution:
+      "Episode companion tool (e.g. accessed via link in description after verbal CTA at end of episode from creator) where listeners state what part of the episode resonated most with them, before being recommended a simple community action based on their feelings & location.",
+  },
+  {
     title: "Community Onboarding Tool",
     href: "https://community-onboarding-tool.lovable.app",
     tags: ["Community Health", "Creator Tools"],
@@ -110,15 +119,6 @@ const experiments: Experiment[] = [
       "Hard for creators to assess community wellbeing, and for community members to find the best events to boost their wellbeing if they’re feeling down.",
     solution:
       "Anonymous weekly check-in tool for community members: logs how they’re feeling (eventually via a rigorous, science-backed psychometric survey), and suggests a local IRL community meetup if they're struggling. For creators/community organisers, tool tracks community wellbeing & trends over time, and suggests IRL meetups to organise specifically designed to improve community wellbeing.",
-  },
-  {
-    title: "Resonance - turn listeners into active communities",
-    href: "https://resonate-action-app.lovable.app",
-    tags: ["Community Health", "Creator Tools"],
-    problem:
-      "Podcast listeners often finish an episode feeling motivated, but have no immediate way to engage with the creator's community.",
-    solution:
-      "Episode companion tool (e.g. accessed via link in description after verbal CTA at end of episode from creator) where listeners state what part of the episode resonated most with them, before being recommended a simple community action based on their feelings & location.",
   },
   {
     title: "Antidote - event check-in detox",
