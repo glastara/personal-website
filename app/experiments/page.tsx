@@ -116,7 +116,7 @@ const experiments: Experiment[] = [
     href: "https://resonate-action-app.lovable.app",
     tags: ["Community Health", "Creator Tools"],
     problem:
-      "Listeners often finish a podcast episode feeling motivated, but have no immediate way to convert that into community engagement.",
+      "Podcast listeners often finish an episode feeling motivated, but have no immediate way to engage with the creator's community.",
     solution:
       "Episode companion tool (e.g. accessed via link in description after verbal CTA at end of episode from creator) where listeners state what part of the episode resonated most with them, before being recommended a simple community action based on their feelings & location.",
   },
