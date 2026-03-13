@@ -225,6 +225,15 @@ const experiments: Experiment[] = [
       "Linktree for IRL connections. Allows you to create a micro-bio 'passport' where you fill out basic info about what you're looking to connect about, your interests, preferred meetup vibe, and when you're free. You can then share it & meet up IRL with others on the Community Passport Directory. Members get rewards for a certain number of IRL meetups (e.g. free products & handwritten letters from creators).",
   },
   {
+    title: "Rekindl",
+    href: "https://rekindl-community-warmth.lovable.app",
+    tags: ["Creator Tools"],
+    problem:
+      "Difficult for creators to identify which of their community members are engaged, which aren’t, and which are at risk of disengaging.",
+    solution:
+      "Community re-engagement dashboard for creators to see which members aren’t participating (e.g. haven’t opened newsletters or attended meetups in a while). Re-engagement messages then auto-generated based on each community member’s profile & engagement history, can either be sent automatically or after team member approval. Same dashboard could be used to identify most engaged community members for prizes, collabs, etc.",
+  },
+  {
     title: "StumbleUponSomeone",
     href: "https://stumble-find-a-friend.lovable.app",
     tags: ["IRL & Events", "Community Health"],
