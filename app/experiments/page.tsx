@@ -231,7 +231,7 @@ const experiments: Experiment[] = [
     problem:
       "Difficult for creators to identify which of their community members are engaged, which aren’t, and which are at risk of disengaging.",
     solution:
-      "Community re-engagement dashboard for creators to see which members aren’t participating (e.g. haven’t opened newsletters or attended meetups in a while). Re-engagement messages then auto-generated based on each community member’s profile & engagement history, can either be sent automatically or after team member approval. Same dashboard could be used to identify most engaged community members for prizes, collabs, etc.",
+      "Community re-engagement dashboard for creators to see which members aren’t participating (e.g. haven’t opened newsletters or attended meetups in a while). Re-engagement messages then auto-generated based on each community member’s profile & engagement history, can either be sent automatically or after team member approval. Same dashboard could also be used to identify most engaged community members for prizes, collabs, etc.",
   },
   {
     title: "StumbleUponSomeone",
