@@ -189,6 +189,26 @@ const experiments: Experiment[] = [
       "A post-event content pipeline tool where a creator’s team uploads key moments, videos, photos, etc., and the tool generates a content plan across multiple platforms. Each suggested piece of content is optimised for the creator’s community goals and what each platform’s algorithm rewards.",
   },
   {
+    title: "Proof - Content Authentication Certificates",
+    href: "https://create-your-proof.lovable.app",
+    tags: ["Creator Tools"],
+    problem: (
+      <>
+        AI makes it increasingly difficult for audiences to tell whether content is AI-generated. It&apos;s also harder for creators to make it clear that their content is authentic, and, if they&apos;re using AI, how exactly they&apos;ve used it. Increasingly important given that{" "}
+        <a
+          href="https://www.theguardian.com/technology/2025/dec/27/more-than-20-of-videos-shown-to-new-youtube-users-are-ai-slop-study-finds"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2"
+        >
+          &gt;20% of YouTube videos are low-quality and AI-generated
+        </a>.
+      </>
+    ),
+    solution:
+      "Allow content creators to generate a ‘Content Authenticity Certificate’ for their work. Can be embedded in upload description or displayed as a website badge, and helps content creators gain & retain trust from their community. Would eventually form a Content Authentication Repository where audiences can search for their favourite creators and compare their use of AI.",
+  },
+  {
     title: "Community Events Performance Dashboard",
     href: "https://irl-event-dashboard.lovable.app",
     tags: ["IRL & Events", "Creator Tools"],
