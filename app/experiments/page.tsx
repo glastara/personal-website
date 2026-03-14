@@ -201,8 +201,9 @@ const experiments: Experiment[] = [
           rel="noopener noreferrer"
           className="underline underline-offset-2"
         >
-          &gt;20% of YouTube videos are low-quality and AI-generated
-        </a>.
+          &gt;20%
+        </a>{" "}
+        of YouTube videos are low-quality and AI-generated.
       </>
     ),
     solution:
