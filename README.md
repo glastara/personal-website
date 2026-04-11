@@ -29,7 +29,7 @@ This is the source code for my personal website ([taranglasson.com](https://www.
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/glastara/personal-website.git
 cd your-repo
 ```
 
@@ -69,7 +69,7 @@ git pull origin main
 
 - The website is hosted and deployed via **Vercel**. **Vercel** handles both the deployment of your site and the automatic updates when changes are pushed to GitHub.
 - The domain is managed via **Cloudflare**. **Cloudflare** handles the DNS configuration, including routing traffic to Vercel.
-- Additional domains (`taranglasson.co`, `.net`, `.xyz`, `.me`) are redirected to `taranglasson.com`.
+- Additional domains are redirected to `taranglasson.com`.
 
 ## 🔥 Features & Customizations
 - **Typography:** Uses **Cal Sans** font for a clean and modern look.
