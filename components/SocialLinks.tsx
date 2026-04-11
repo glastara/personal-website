@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function SocialLinks() {
@@ -25,14 +25,6 @@ export default function SocialLinks() {
 				className="hover:text-gray-600 transition-colors"
 			>
 				<FaGithub />
-			</a>
-			<a
-				href="https://www.youtube.com/@taran_glasson"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="hover:text-gray-600 transition-colors"
-			>
-				<FaYoutube />
 			</a>
 		</div>
 	);
